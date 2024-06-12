@@ -29,7 +29,7 @@ html, body{
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-: ;
+    
 
 }
 
@@ -40,4 +40,14 @@ html, body{
     to{
         transform: translate(10%, 10%);
     }
+}
+
+linear-div{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background: linear-gradient(to top ,blue , red);
+    /* background: linear-gradient(to bottom ,blue , red);
+    background: linear-gradient(to top right,blue , red);
+    background: linear-gradient(to bottom left,blue , red); */
 }
