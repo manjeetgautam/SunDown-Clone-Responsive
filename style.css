@@ -297,6 +297,37 @@ nav{
 
 #page3{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #EFEAE3;
+    padding: 4vw 0;
 }
+
+.elem{
+    min-height: 150px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.685);
+    display: flex;
+    align-items: center;
+    padding:  0 2vw;
+    overflow: hidden;
+}
+
+.elem h2{
+    font-size: 3vw;
+    z-index: 9;
+}
+
+.elem .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #FF9831;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    transition: all ease 0.2s;
+}
+
+.elem:hover .overlay{
+    top: 0;
+} 
